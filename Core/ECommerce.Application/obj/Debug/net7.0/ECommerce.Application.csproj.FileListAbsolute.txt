@@ -1,0 +1,15 @@
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/bin/Debug/net7.0/ECommerce.Application.deps.json
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/bin/Debug/net7.0/ECommerce.Application.dll
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/bin/Debug/net7.0/ECommerce.Application.pdb
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/bin/Debug/net7.0/ECommerce.Domain.dll
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/bin/Debug/net7.0/ECommerce.Domain.pdb
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ECommerce.Application.csproj.AssemblyReference.cache
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ECommerce.Application.AssemblyInfoInputs.cache
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ECommerce.Application.AssemblyInfo.cs
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ECommerce.Application.csproj.CoreCompileInputs.cache
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ECommerce.Application.dll
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/refint/ECommerce.Application.dll
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ECommerce.Application.pdb
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ref/ECommerce.Application.dll
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ECommerc.670E0CBE.Up2Date

@@ -1,0 +1,17 @@
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/bin/Debug/net7.0/ECommerce.Infrastructure.deps.json
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/bin/Debug/net7.0/ECommerce.Infrastructure.dll
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/bin/Debug/net7.0/ECommerce.Infrastructure.pdb
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/bin/Debug/net7.0/ECommerce.Application.dll
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/bin/Debug/net7.0/ECommerce.Domain.dll
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/bin/Debug/net7.0/ECommerce.Application.pdb
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/bin/Debug/net7.0/ECommerce.Domain.pdb
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/obj/Debug/net7.0/ECommerce.Infrastructure.csproj.AssemblyReference.cache
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/obj/Debug/net7.0/ECommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/obj/Debug/net7.0/ECommerce.Infrastructure.AssemblyInfoInputs.cache
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/obj/Debug/net7.0/ECommerce.Infrastructure.AssemblyInfo.cs
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/obj/Debug/net7.0/ECommerce.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/obj/Debug/net7.0/ECommerce.Infrastructure.csproj.CopyComplete
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/obj/Debug/net7.0/ECommerce.Infrastructure.dll
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/obj/Debug/net7.0/refint/ECommerce.Infrastructure.dll
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/obj/Debug/net7.0/ECommerce.Infrastructure.pdb
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/obj/Debug/net7.0/ref/ECommerce.Infrastructure.dll

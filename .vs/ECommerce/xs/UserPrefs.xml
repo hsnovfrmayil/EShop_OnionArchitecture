@@ -1,0 +1,57 @@
+﻿<Properties StartupConfiguration="{6243A2D0-D4A0-4612-BC0E-5BDFA0218A29}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/ECommerce.WebApi/Program.cs">
+    <Files>
+      <File FileName="Core/ECommerce.Domain/Entities/Common/BaseEntity.cs" Line="12" Column="44" />
+      <File FileName="Core/ECommerce.Application/Repositories/IProductRepository.cs" Line="8" Column="2" />
+      <File FileName="Core/ECommerce.Application/Repositories/ICategoryRepository.cs" Line="8" Column="2" />
+      <File FileName="Infrastructure/Persistence/DbContext/ECommerceDbContext.cs" Line="26" Column="53" />
+      <File FileName="Infrastructure/Persistence/Repositories/GenericRepository.cs" Line="26" Column="45" />
+      <File FileName="Infrastructure/Persistence/Repositories/CategoryRepository.cs" Line="7" Column="80" />
+      <File FileName="Core/ECommerce.Domain/Entities/Concretes/Order.cs" Line="23" Column="1" />
+      <File FileName="Infrastructure/Persistence/RegisterServices.cs" Line="24" Column="9" />
+      <File FileName="Presentation/ECommerce.WebApi/Program.cs" Line="25" Column="1" />
+      <File FileName="Presentation/ECommerce.WebApi/appsettings.json" Line="14" Column="1" />
+      <File FileName="Core/ECommerce.Domain/Entities/Concretes/Product.cs" Line="24" Column="1" />
+      <File FileName="Core/ECommerce.Domain/Entities/Abstracts/IBaseEntity.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ECommerce" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="ECommerce.Application" expanded="True">
+                <Node name="Repositories" expanded="True" />
+              </Node>
+              <Node name="ECommerce.Domain" expanded="True">
+                <Node name="Entities" expanded="True">
+                  <Node name="Abstracts" expanded="True" />
+                  <Node name="Common" expanded="True" />
+                  <Node name="Concretes" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="ECommerce.Infrastructure" expanded="True" />
+              <Node name="ECommerce.Persistence" expanded="True">
+                <Node name="DbContext" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="ECommerce.WebApi" expanded="True">
+                <Node name="Program.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Presentation.ECommerce.WebApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
