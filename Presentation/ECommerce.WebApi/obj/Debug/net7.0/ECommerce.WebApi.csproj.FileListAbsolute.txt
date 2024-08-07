@@ -90,3 +90,5 @@
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.pdb
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.genruntimeconfig.cache
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ref/ECommerce.WebApi.dll
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Npgsql.dll
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll

@@ -28,7 +28,17 @@ public class ProductController : Controller
         var products =await _readProductRepository.GetAllAsync();
         var productForPage= products.ToList().Skip(paginationVM.Page * paginationVM.Size).Take(paginationVM.Size);
 
-        return Ok(productForPage);
+        var allProdudctVM = productForPage.Select(p=>new AllProductVM()
+        {
+            Name=p.Name,
+            Price=p.Price,
+            Description=p.Description,
+            CategoryName = p.Category != null ? p.Category.Name : "Unknown",
+            ImageUrl =p.ImageUrl,
+            Stock=p.Stock
+        }).ToList();
+        //return Ok(productForPage);
+        return Ok(allProdudctVM);
     }
 
     [HttpPost("AddProduct")]
@@ -42,9 +52,7 @@ public class ProductController : Controller
             Name = addProductVM.Name,
             Price=addProductVM.Price,
             Description=addProductVM.Description,
-            CategoryId=addProductVM.CategoryId,
-            CreatedAt=DateTime.Now,
-            UpdatedAt=DateTime.Now
+            CategoryId=addProductVM.CategoryId
         };
 
         await _writeProductRepository.AddAsync(product);

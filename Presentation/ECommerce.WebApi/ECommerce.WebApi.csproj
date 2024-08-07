@@ -28,12 +28,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="Controllerr\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\CategoryController.cs" />
-    <Compile Include="Controllers\ProductController.cs" />
-    <Compile Include="Controllers\CustomerController.cs" />
-    <Compile Include="Controllers\OrderController.cs" />
+    <None Remove="Controllerr\" />
   </ItemGroup>
 </Project>

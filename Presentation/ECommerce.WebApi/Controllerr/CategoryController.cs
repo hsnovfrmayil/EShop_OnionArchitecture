@@ -23,7 +23,7 @@ public class CategoryController : Controller
         _writeCategoryRepository = writeCategoryRepository;
     }
 
-    [HttpGet("AddCategory")]
+    [HttpPost("AddCategory")]
     public async Task<IActionResult> AddCategory([FromBody]AddCategoryVM addCategoryVM)
     {
         if (!ModelState.IsValid)
@@ -32,9 +32,7 @@ public class CategoryController : Controller
         var category = new Category()
         {
             Name = addCategoryVM.Name,
-            Description = addCategoryVM.Description,
-            CreatedAt = DateTime.Now,
-            UpdatedAt = DateTime.Now
+            Description = addCategoryVM.Description
         };
 
         await _writeCategoryRepository.AddAsync(category);
