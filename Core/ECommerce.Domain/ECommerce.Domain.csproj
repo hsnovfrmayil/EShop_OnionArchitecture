@@ -11,11 +11,13 @@
     <None Remove="Entities\Common\" />
     <None Remove="Entities\Concretes\" />
     <None Remove="Entities\Abstracts\" />
+    <None Remove="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Entities\Common\" />
     <Folder Include="Entities\Concretes\" />
     <Folder Include="Entities\Abstracts\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 </Project>

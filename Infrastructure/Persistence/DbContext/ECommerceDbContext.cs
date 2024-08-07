@@ -14,7 +14,7 @@ public class ECommerceDbContext : DbContext
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=localhost,1433;Database=ECompanyDb;User ID=SA;Password=reallyStrongPwd123;TrustServerCertificate=True");
+        optionsBuilder.UseNpgsql("Server=localhost;Port=5432;Database=ECommerceDb;User Id=postgres;Password=12345");
     }
 
     public virtual DbSet<Product> Products { get; set; }

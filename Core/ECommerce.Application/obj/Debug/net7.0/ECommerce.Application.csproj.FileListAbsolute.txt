@@ -12,4 +12,4 @@
 /Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/refint/ECommerce.Application.dll
 /Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ECommerce.Application.pdb
 /Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ref/ECommerce.Application.dll
-/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ECommerc.670E0CBE.Up2Date
+/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/obj/Debug/net7.0/ECommerce.Application.csproj.CopyComplete

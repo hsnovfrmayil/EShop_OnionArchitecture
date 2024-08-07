@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n3BclDjX5gQlID4r24x9Yeqg2nZNCNnTNdbj7NYHTL3PbHisI4Kx+mLBRYZx2QV+VRyZDZKQXq06dLICQA9InQ==",
+  "dgSpecHash": "CRyBQvGbEby1oZa8Z2H/6eC7EQ7/5+urZ3FAO+TMWjI2iPt7vdC8xfCVNosFKt6c9GDP6bc6bz7Q5F3q/dZPug==",
   "success": true,
   "projectFilePath": "/Users/fermayilhesenov/Projects/ECommerce/Core/ECommerce.Application/ECommerce.Application.csproj",
-  "expectedPackageFiles": [
-    "/Users/fermayilhesenov/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

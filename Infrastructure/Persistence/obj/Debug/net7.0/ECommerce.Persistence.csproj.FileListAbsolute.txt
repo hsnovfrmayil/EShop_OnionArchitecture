@@ -16,4 +16,4 @@
 /Users/fermayilhesenov/Projects/ECommerce/Infrastructure/Persistence/obj/Debug/net7.0/ECommerce.Persistence.pdb
 /Users/fermayilhesenov/Projects/ECommerce/Infrastructure/Persistence/obj/Debug/net7.0/ECommerce.Persistence.genruntimeconfig.cache
 /Users/fermayilhesenov/Projects/ECommerce/Infrastructure/Persistence/obj/Debug/net7.0/ref/ECommerce.Persistence.dll
-/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/Persistence/obj/Debug/net7.0/ECommerc.8296B1A3.Up2Date
+/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/Persistence/obj/Debug/net7.0/ECommerce.Persistence.csproj.CopyComplete

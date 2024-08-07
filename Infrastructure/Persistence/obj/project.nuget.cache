@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HKq6OUnAIY7QxqqhIRmqePSAWMms1WRUsNW4pa6uETMktlIa4GzZNv2Po6RYA+Iyh/T1N5W8JmXXACwt6JnLpQ==",
+  "dgSpecHash": "nzDWPe5zu50HE5PNcfkv9hGJDmO2gioEsMuHaSj9y3NzNPjKjGmqbas/OAIU1A6E2gRurm5j6pQdpOhOeFj2HA==",
   "success": true,
   "projectFilePath": "/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/Persistence/ECommerce.Persistence.csproj",
   "expectedPackageFiles": [
@@ -82,9 +82,7 @@
     "/Users/fermayilhesenov/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/system.windows.extensions/5.0.0/system.windows.extensions.5.0.0.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+    "/Users/fermayilhesenov/.nuget/packages/system.windows.extensions/5.0.0/system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

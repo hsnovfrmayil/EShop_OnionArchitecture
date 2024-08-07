@@ -13,11 +13,21 @@
     <None Remove="DbContext\" />
     <None Remove="Repositories\" />
     <None Remove="Configurations\" />
+    <None Remove="Repositories\Common\" />
+    <None Remove="Repositories\Product\" />
+    <None Remove="Repositories\Customer\" />
+    <None Remove="Repositories\Order\" />
+    <None Remove="Repositories\Category\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DbContext\" />
     <Folder Include="Repositories\" />
     <Folder Include="Configurations\" />
+    <Folder Include="Repositories\Common\" />
+    <Folder Include="Repositories\Product\" />
+    <Folder Include="Repositories\Customer\" />
+    <Folder Include="Repositories\Order\" />
+    <Folder Include="Repositories\Category\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />

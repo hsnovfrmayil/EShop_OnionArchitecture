@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using ECommerce.Persistence;
 using ECommerce.Application.Repositories;
 using ECommerce.Persistence.Repositories;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,10 @@ builder.Services.AddSwaggerGen();
 //});
 //builder.Services.AddScoped<IProductRepository, ProductRepository>();
 //builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+//builder.Services.AddDbContext<ECommerceDbContext>(option =>
+//{
+//    option.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+//});
 
 builder.Services.AddPersistenceRegister();
 
