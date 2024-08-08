@@ -16,6 +16,8 @@
     <None Remove="Repositories\Customer\" />
     <None Remove="Repositories\Order\" />
     <None Remove="Repositories\Category\" />
+    <None Remove="Services\" />
+    <None Remove="Extentions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -24,5 +26,7 @@
     <Folder Include="Repositories\Customer\" />
     <Folder Include="Repositories\Order\" />
     <Folder Include="Repositories\Category\" />
+    <Folder Include="Services\" />
+    <Folder Include="Extentions\" />
   </ItemGroup>
 </Project>

@@ -40,6 +40,32 @@ public class CategoryController : Controller
         return StatusCode(201);
     }
 
+
+
+    //All Product List
+    [HttpPost("AllCategoriesByCategory")]
+    public async Task<IActionResult> GetAllProductsByCategory([FromBody] int categoryId)
+    {
+        var products = await _readCategorytRepository.AllProductByCategory(categoryId);
+
+        if (products == null)
+            return NotFound("Category not Found");
+
+        var allProducts = products.Select(p=>new GetProductVM()
+        {
+            Id=-p.Id,
+            Name=p.Name,
+            Price=p.Price,
+            Description=p.Description,
+            CategoryName=p.Category.Name,
+            ImageUrl=p.ImageUrl,
+            Stock=p.Stock
+        }).ToList();
+
+        return Ok(allProducts);
+    }
+
+
   
 }
 

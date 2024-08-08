@@ -1,54 +1,51 @@
 ﻿<Properties StartupConfiguration="{6243A2D0-D4A0-4612-BC0E-5BDFA0218A29}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/ECommerce.WebApi/Controllers/CategoryController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Persistence/Services/ProductService.cs">
     <Files>
-      <File FileName="Core/ECommerce.Domain/Entities/Common/BaseEntity.cs" Line="12" Column="44" />
+      <File FileName="Core/ECommerce.Domain/Entities/Common/BaseEntity.cs" />
       <File FileName="Presentation/ECommerce.WebApi/Program.cs" />
       <File FileName="Core/ECommerce.Application/Repositories/Order/IReadOrderRepository.cs" />
       <File FileName="Core/ECommerce.Application/Repositories/Order/IWriteOrderRepository.cs" />
-      <File FileName="Infrastructure/Persistence/Repositories/Common/ReadGenericRepository.cs" Line="29" Column="64" />
-      <File FileName="Infrastructure/Persistence/Repositories/Common/WriteGenericRepository.cs" Line="46" Column="31" />
-      <File FileName="Infrastructure/Persistence/Repositories/Common/GenericRepository.cs" Line="10" Column="84" />
-      <File FileName="Core/ECommerce.Application/Repositories/Common/IReadGenericRepository.cs" Line="8" Column="95" />
-      <File FileName="Core/ECommerce.Application/Repositories/Common/IWriteGenericRepository.cs" Line="21" Column="1" />
-      <File FileName="Core/ECommerce.Application/Repositories/Common/IGenericRepository.cs" Line="7" Column="67" />
-      <File FileName="Core/ECommerce.Domain/Entities/Abstracts/IBaseEntity.cs" Line="13" Column="1" />
-      <File FileName="Infrastructure/Persistence/Repositories/Category/WriteCategoryRepository.cs" Line="13" Column="6" />
-      <File FileName="Infrastructure/Persistence/Repositories/Customer/ReadCustomerRepository.cs" Line="16" Column="1" />
-      <File FileName="Infrastructure/Persistence/Repositories/Customer/WriteCustomerRepository.cs" Line="13" Column="6" />
-      <File FileName="Infrastructure/Persistence/Repositories/Order/WriteOrderRepository.cs" Line="13" Column="6" />
-      <File FileName="Infrastructure/Persistence/Repositories/Product/ReadProductRepository.cs" Line="9" Column="36" />
-      <File FileName="Infrastructure/Persistence/Repositories/Order/ReadOrderRepository.cs" Line="1" Column="1" />
-      <File FileName="Infrastructure/Persistence/Repositories/Product/WriteProductRepository.cs" Line="16" Column="1" />
-      <File FileName="Core/ECommerce.Application/Repositories/Category/IWriteCategoryRepository.cs" Line="1" Column="1" />
-      <File FileName="Core/ECommerce.Application/Repositories/Product/IWriteProductRepository.cs" Line="10" Column="1" />
-      <File FileName="Core/ECommerce.Application/Repositories/Customer/IWriteCustomerRepository.cs" Line="1" Column="1" />
-      <File FileName="Presentation/ECommerce.WebApi/Controllers/CategoryController.cs" Line="32" Column="38" />
+      <File FileName="Infrastructure/Persistence/Repositories/Common/ReadGenericRepository.cs" />
+      <File FileName="Infrastructure/Persistence/Repositories/Common/WriteGenericRepository.cs" />
+      <File FileName="Infrastructure/Persistence/Repositories/Common/GenericRepository.cs" />
+      <File FileName="Core/ECommerce.Application/Repositories/Common/IReadGenericRepository.cs" />
+      <File FileName="Core/ECommerce.Application/Repositories/Common/IWriteGenericRepository.cs" />
+      <File FileName="Core/ECommerce.Application/Repositories/Common/IGenericRepository.cs" />
+      <File FileName="Core/ECommerce.Domain/Entities/Abstracts/IBaseEntity.cs" />
+      <File FileName="Infrastructure/Persistence/Repositories/Category/WriteCategoryRepository.cs" />
+      <File FileName="Infrastructure/Persistence/Repositories/Customer/ReadCustomerRepository.cs" />
+      <File FileName="Infrastructure/Persistence/Repositories/Customer/WriteCustomerRepository.cs" />
+      <File FileName="Infrastructure/Persistence/Repositories/Order/WriteOrderRepository.cs" />
+      <File FileName="Infrastructure/Persistence/Repositories/Product/ReadProductRepository.cs" />
+      <File FileName="Infrastructure/Persistence/Repositories/Order/ReadOrderRepository.cs" />
+      <File FileName="Infrastructure/Persistence/Repositories/Product/WriteProductRepository.cs" />
+      <File FileName="Core/ECommerce.Application/Repositories/Category/IWriteCategoryRepository.cs" />
+      <File FileName="Core/ECommerce.Application/Repositories/Product/IWriteProductRepository.cs" />
+      <File FileName="Core/ECommerce.Application/Repositories/Customer/IWriteCustomerRepository.cs" />
+      <File FileName="Infrastructure/Persistence/DbContext/ECommerceDbContext.cs" />
+      <File FileName="Presentation/ECommerce.WebApi/Controllerr/ProductController.cs" />
+      <File FileName="Infrastructure/Persistence/Services/ProductService.cs" Line="48" Column="60" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ECommerce" expanded="True">
             <Node name="Core" expanded="True">
-              <Node name="ECommerce.Application" expanded="True">
-                <Node name="Repositories" selected="True" />
-              </Node>
               <Node name="ECommerce.Domain" expanded="True">
                 <Node name="Entities" expanded="True">
-                  <Node name="Abstracts" expanded="True" />
                   <Node name="Common" expanded="True" />
-                  <Node name="Concretes" expanded="True" />
                 </Node>
-                <Node name="ViewModels" expanded="True" />
               </Node>
             </Node>
-            <Node name="Presentation" expanded="True">
-              <Node name="ECommerce.WebApi" expanded="True">
-                <Node name="Controllers" expanded="True" />
+            <Node name="Infrastructure" expanded="True">
+              <Node name="ECommerce.Infrastructure" expanded="True" />
+              <Node name="ECommerce.Persistence" expanded="True">
+                <Node name="Services" expanded="True">
+                  <Node name="ProductService.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -56,6 +53,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Presentation.ECommerce.WebApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

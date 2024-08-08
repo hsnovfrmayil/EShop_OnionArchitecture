@@ -1,8 +1,10 @@
 ﻿using System;
 using Castle.Core.Configuration;
 using ECommerce.Application.Repositories;
+using ECommerce.Application.Services;
 using ECommerce.Persistence.DbContext;
 using ECommerce.Persistence.Repositories;
+using ECommerce.Persistence.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -40,7 +42,12 @@ public static class RegisterServices
         services.AddScoped<IWriteCategoryRepository, WriteCategoryRepository>();
         services.AddScoped<IWriteProductRepository, WriteProductRepository>();
         services.AddScoped<IWriteCustomerRepository, WriteCustomerRepository>();
+
+
+        //All Services Register
+        services.AddScoped<IProductService, ProductService>();
     }
+
 }
 
 //Microsoft.Extentions.Configurations
