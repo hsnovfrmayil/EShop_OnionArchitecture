@@ -3,7 +3,7 @@ using ECommerce.Domain.Entities.Common;
 
 namespace ECommerce.Domain.Entities.Concretes;
 
-public class Customer :BaseEntity
+public class AppUser :BaseEntity
 {
 	public string? FirstName { get; set; }
 
@@ -15,6 +15,10 @@ public class Customer :BaseEntity
 
 	public string? Password { get; set; }
 
-	public ICollection<Order> Orders { get; set; }
+	public string UserName { get; set; }
+
+	public string Role { get; set; }
+
+    public ICollection<Order> Orders { get; set; }
 }
 

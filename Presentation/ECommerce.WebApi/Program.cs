@@ -4,6 +4,8 @@ using ECommerce.Persistence;
 using ECommerce.Application.Repositories;
 using ECommerce.Persistence.Repositories;
 using System;
+using ECommerce.Application;
+using ECommerce.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+//builder.Services.AddAuthentication
+
+builder.AddIntrastructureRegister();
 builder.Services.AddPersistenceRegister();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -29,6 +34,7 @@ builder.Services.AddSwaggerGen();
 //});
 
 builder.Services.AddPersistenceRegister();
+//builder.Services.AddApplicationRegister();
 
 var app = builder.Build();
 
@@ -41,6 +47,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

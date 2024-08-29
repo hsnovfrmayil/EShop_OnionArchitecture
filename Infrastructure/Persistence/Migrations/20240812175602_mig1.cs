@@ -30,7 +30,7 @@ namespace ECommerce.Persistence.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Customers",
+                name: "Users",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
@@ -40,12 +40,14 @@ namespace ECommerce.Persistence.Migrations
                     Address = table.Column<string>(type: "text", nullable: true),
                     Email = table.Column<string>(type: "text", nullable: true),
                     Password = table.Column<string>(type: "text", nullable: true),
+                    UserName = table.Column<string>(type: "text", nullable: false),
+                    Role = table.Column<string>(type: "text", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Customers", x => x.Id);
+                    table.PrimaryKey("PK_Users", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -59,6 +61,7 @@ namespace ECommerce.Persistence.Migrations
                     OrderNote = table.Column<string>(type: "text", nullable: false),
                     Total = table.Column<decimal>(type: "numeric", nullable: false),
                     CustomerId = table.Column<int>(type: "integer", nullable: false),
+                    AppUserId = table.Column<int>(type: "integer", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
                 },
@@ -66,9 +69,9 @@ namespace ECommerce.Persistence.Migrations
                 {
                     table.PrimaryKey("PK_Orders", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Orders_Customers_CustomerId",
-                        column: x => x.CustomerId,
-                        principalTable: "Customers",
+                        name: "FK_Orders_Users_AppUserId",
+                        column: x => x.AppUserId,
+                        principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -106,9 +109,9 @@ namespace ECommerce.Persistence.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Orders_CustomerId",
+                name: "IX_Orders_AppUserId",
                 table: "Orders",
-                column: "CustomerId");
+                column: "AppUserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Products_CategoryId",
@@ -134,7 +137,7 @@ namespace ECommerce.Persistence.Migrations
                 name: "Orders");
 
             migrationBuilder.DropTable(
-                name: "Customers");
+                name: "Users");
         }
     }
 }

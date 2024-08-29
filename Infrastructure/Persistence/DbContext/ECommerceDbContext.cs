@@ -42,7 +42,7 @@ public class ECommerceDbContext : DbContext
 
     public virtual DbSet<Category> Categories { get; set; }
 
-    public virtual DbSet<Customer> Customers { get; set; }
+    public virtual DbSet<AppUser> Users { get; set; }
 
     public virtual DbSet<Order> Orders { get; set; }
 

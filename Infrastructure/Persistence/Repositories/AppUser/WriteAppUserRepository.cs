@@ -6,9 +6,9 @@ using ECommerce.Persistence.Repositories.Common;
 
 namespace ECommerce.Persistence.Repositories;
 
-public class ReadCustomerRepository : ReadGenericRepository<Customer>, IReadCustomerRepository
+public class WriteAppUserRepository : WriteGenericRepository<AppUser>, IWriteAppUserRepository
 {
-    public ReadCustomerRepository(ECommerceDbContext context) : base(context)
+    public WriteAppUserRepository(ECommerceDbContext context) : base(context)
     {
     }
 }

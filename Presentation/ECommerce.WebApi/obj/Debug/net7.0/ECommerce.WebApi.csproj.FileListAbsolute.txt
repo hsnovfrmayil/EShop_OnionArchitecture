@@ -1,10 +1,3 @@
-/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.csproj.AssemblyReference.cache
-/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.AssemblyInfoInputs.cache
-/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.AssemblyInfo.cs
-/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.csproj.CoreCompileInputs.cache
-/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.MvcApplicationPartsAssemblyInfo.cs
-/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.MvcApplicationPartsAssemblyInfo.cache
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/appsettings.Development.json
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/appsettings.json
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/ECommerce.WebApi
@@ -15,6 +8,7 @@
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Azure.Core.dll
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Azure.Identity.dll
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Castle.Core.dll
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/MediatR.dll
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
@@ -42,6 +36,8 @@
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Microsoft.OpenApi.dll
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Npgsql.dll
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -76,6 +72,13 @@
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/ECommerce.Infrastructure.pdb
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/ECommerce.Application.pdb
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/ECommerce.Domain.pdb
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.csproj.AssemblyReference.cache
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.AssemblyInfoInputs.cache
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.AssemblyInfo.cs
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.csproj.CoreCompileInputs.cache
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.MvcApplicationPartsAssemblyInfo.cache
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/staticwebassets/msbuild.ECommerce.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/staticwebassets/msbuild.build.ECommerce.WebApi.props
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ECommerce.WebApi.props
@@ -90,5 +93,4 @@
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.pdb
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ECommerce.WebApi.genruntimeconfig.cache
 /Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/obj/Debug/net7.0/ref/ECommerce.WebApi.dll
-/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Npgsql.dll
-/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/fermayilhesenov/Projects/ECommerce/Presentation/ECommerce.WebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

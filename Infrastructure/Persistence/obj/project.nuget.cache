@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nzDWPe5zu50HE5PNcfkv9hGJDmO2gioEsMuHaSj9y3NzNPjKjGmqbas/OAIU1A6E2gRurm5j6pQdpOhOeFj2HA==",
+  "dgSpecHash": "+xvSfnJ3FgpfSxTu+sgIFWeGa1NnbmkKB8+sv9KiaPscsmOQS/xRn4HL4n0jKFLal+ud6KqSMkAwHvVFL+inog==",
   "success": true,
   "projectFilePath": "/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/Persistence/ECommerce.Persistence.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/fermayilhesenov/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/castle.core/5.1.0/castle.core.5.1.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/mediatr/7.0.0/mediatr.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.data.sqlclient/5.0.1/microsoft.data.sqlclient.5.0.1.nupkg.sha512",

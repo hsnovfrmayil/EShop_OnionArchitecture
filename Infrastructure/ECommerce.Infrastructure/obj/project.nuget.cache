@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "Ew+7/B23G09qN69aLhdcTy0gLwvz360ClSyhBPeFD7oCnOYWuLak1HPlScWIyxB3jgvks9VuXTLexNVKrJic1A==",
+  "dgSpecHash": "jygqLNCOuUjLQ7pFntNO2NSVdXQAES3N7LASxkg2K52RJHQxuy6qkRcbFkgDeIQPXo0Fe4dLJGnhaqj+ecfAYQ==",
   "success": true,
   "projectFilePath": "/Users/fermayilhesenov/Projects/ECommerce/Infrastructure/ECommerce.Infrastructure/ECommerce.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/fermayilhesenov/.nuget/packages/mediatr/7.0.0/mediatr.7.0.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.0/microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.identitymodel.abstractions/7.0.0/microsoft.identitymodel.abstractions.7.0.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.0.0/microsoft.identitymodel.jsonwebtokens.7.0.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.identitymodel.logging/7.0.0/microsoft.identitymodel.logging.7.0.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.identitymodel.protocols/6.15.1/microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.15.1/microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.identitymodel.tokens/7.0.0/microsoft.identitymodel.tokens.7.0.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/system.identitymodel.tokens.jwt/7.0.0/system.identitymodel.tokens.jwt.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -32,7 +32,7 @@ public static class RegisterServices
         services.AddScoped<IReadOrderRepository, ReadOrderRepository>();
         services.AddScoped<IReadCategoryRepository, ReadCategoryRepository>();
         services.AddScoped<IReadProductRepository, ReadProductRepository>();
-        services.AddScoped<IReadCustomerRepository, ReadCustomerRepository>();
+        services.AddScoped<IReadAppUserRepository, ReadAppUserRepository>();
         
 
 
@@ -41,7 +41,7 @@ public static class RegisterServices
         services.AddScoped<IWriteOrderRepository, WriteOrderRepository>();
         services.AddScoped<IWriteCategoryRepository, WriteCategoryRepository>();
         services.AddScoped<IWriteProductRepository, WriteProductRepository>();
-        services.AddScoped<IWriteCustomerRepository, WriteCustomerRepository>();
+        services.AddScoped<IWriteAppUserRepository, WriteAppUserRepository>();
 
 
         //All Services Register

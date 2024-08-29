@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{6243A2D0-D4A0-4612-BC0E-5BDFA0218A29}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Persistence/Services/ProductService.cs">
+  <MonoDevelop.Ide.ItemProperties.Presentation.ECommerce.WebApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/ECommerce.Infrastructure/RegisterService.cs">
     <Files>
       <File FileName="Core/ECommerce.Domain/Entities/Common/BaseEntity.cs" />
-      <File FileName="Presentation/ECommerce.WebApi/Program.cs" />
       <File FileName="Core/ECommerce.Application/Repositories/Order/IReadOrderRepository.cs" />
       <File FileName="Core/ECommerce.Application/Repositories/Order/IWriteOrderRepository.cs" />
       <File FileName="Infrastructure/Persistence/Repositories/Common/ReadGenericRepository.cs" />
@@ -16,18 +19,21 @@
       <File FileName="Core/ECommerce.Application/Repositories/Common/IGenericRepository.cs" />
       <File FileName="Core/ECommerce.Domain/Entities/Abstracts/IBaseEntity.cs" />
       <File FileName="Infrastructure/Persistence/Repositories/Category/WriteCategoryRepository.cs" />
-      <File FileName="Infrastructure/Persistence/Repositories/Customer/ReadCustomerRepository.cs" />
-      <File FileName="Infrastructure/Persistence/Repositories/Customer/WriteCustomerRepository.cs" />
       <File FileName="Infrastructure/Persistence/Repositories/Order/WriteOrderRepository.cs" />
       <File FileName="Infrastructure/Persistence/Repositories/Product/ReadProductRepository.cs" />
       <File FileName="Infrastructure/Persistence/Repositories/Order/ReadOrderRepository.cs" />
       <File FileName="Infrastructure/Persistence/Repositories/Product/WriteProductRepository.cs" />
       <File FileName="Core/ECommerce.Application/Repositories/Category/IWriteCategoryRepository.cs" />
       <File FileName="Core/ECommerce.Application/Repositories/Product/IWriteProductRepository.cs" />
-      <File FileName="Core/ECommerce.Application/Repositories/Customer/IWriteCustomerRepository.cs" />
-      <File FileName="Infrastructure/Persistence/DbContext/ECommerceDbContext.cs" />
       <File FileName="Presentation/ECommerce.WebApi/Controllerr/ProductController.cs" />
-      <File FileName="Infrastructure/Persistence/Services/ProductService.cs" Line="48" Column="60" />
+      <File FileName="Core/ECommerce.Application/Behaviors/Query/Product/GetAll/GetAllProductQueryHandler.cs" />
+      <File FileName="Core/ECommerce.Domain/Entities/Concretes/Customer.cs" />
+      <File FileName="Core/ECommerce.Domain/Entities/Concretes/Product.cs" />
+      <File FileName="Infrastructure/Persistence/Repositories/AppUser/ReadAppUserRepository.cs" />
+      <File FileName="Core/ECommerce.Application/Services/ITokenService.cs" />
+      <File FileName="Presentation/ECommerce.WebApi/Controllerr/AuthController.cs" />
+      <File FileName="Infrastructure/ECommerce.Infrastructure/Services/TokenService.cs" />
+      <File FileName="Infrastructure/ECommerce.Infrastructure/RegisterService.cs" Line="37" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -41,11 +47,8 @@
               </Node>
             </Node>
             <Node name="Infrastructure" expanded="True">
-              <Node name="ECommerce.Infrastructure" expanded="True" />
-              <Node name="ECommerce.Persistence" expanded="True">
-                <Node name="Services" expanded="True">
-                  <Node name="ProductService.cs" selected="True" />
-                </Node>
+              <Node name="ECommerce.Infrastructure" expanded="True">
+                <Node name="RegisterService.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -53,8 +56,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Presentation.ECommerce.WebApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

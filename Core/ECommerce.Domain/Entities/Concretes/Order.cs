@@ -17,6 +17,6 @@ public class Order :BaseEntity
 
     public virtual ICollection<Product> Products { get; set; }
 
-	public virtual Customer Customer { get; set; }
+	public virtual AppUser AppUser { get; set; }
 }
 

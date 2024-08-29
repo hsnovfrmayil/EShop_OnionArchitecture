@@ -6,42 +6,41 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace ECommerce.WebApi.Controllers
+namespace ECommerce.WebApi.Controllers;
+
+[Route("api/[controller]")]
+public class AppUserController : Controller
 {
-    [Route("api/[controller]")]
-    public class CustomerController : Controller
+    // GET: api/values
+    [HttpGet]
+    public IEnumerable<string> Get()
     {
-        // GET: api/values
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        return new string[] { "value1", "value2" };
+    }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+    // GET api/values/5
+    [HttpGet("{id}")]
+    public string Get(int id)
+    {
+        return "value";
+    }
 
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
+    // POST api/values
+    [HttpPost]
+    public void Post([FromBody]string value)
+    {
+    }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
+    // PUT api/values/5
+    [HttpPut("{id}")]
+    public void Put(int id, [FromBody]string value)
+    {
+    }
 
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+    // DELETE api/values/5
+    [HttpDelete("{id}")]
+    public void Delete(int id)
+    {
     }
 }
 

@@ -15,10 +15,10 @@
     <None Remove="Configurations\" />
     <None Remove="Repositories\Common\" />
     <None Remove="Repositories\Product\" />
-    <None Remove="Repositories\Customer\" />
     <None Remove="Repositories\Order\" />
     <None Remove="Repositories\Category\" />
     <None Remove="Services\" />
+    <None Remove="Repositories\AppUser\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DbContext\" />
@@ -26,10 +26,10 @@
     <Folder Include="Configurations\" />
     <Folder Include="Repositories\Common\" />
     <Folder Include="Repositories\Product\" />
-    <Folder Include="Repositories\Customer\" />
     <Folder Include="Repositories\Order\" />
     <Folder Include="Repositories\Category\" />
     <Folder Include="Services\" />
+    <Folder Include="Repositories\AppUser\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
@@ -45,6 +45,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.0" />
   </ItemGroup>
 </Project>
