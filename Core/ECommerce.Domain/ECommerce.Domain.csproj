@@ -13,6 +13,7 @@
     <None Remove="Entities\Abstracts\" />
     <None Remove="ViewModels\" />
     <None Remove="DTOs\" />
+    <None Remove="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
@@ -21,5 +22,6 @@
     <Folder Include="Entities\Abstracts\" />
     <Folder Include="ViewModels\" />
     <Folder Include="DTOs\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
 </Project>

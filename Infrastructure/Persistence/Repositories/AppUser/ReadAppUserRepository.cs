@@ -12,26 +12,19 @@ public class ReadAppUserRepository : ReadGenericRepository<AppUser>, IReadAppUse
     public ReadAppUserRepository(ECommerceDbContext context) : base(context)
     {
     }
-
-    public async Task<bool> CheckUserNamePassword(string userName, string password)
-    {
-        var user = await _table.FirstOrDefaultAsync(p =>p.UserName==userName && p.Password==password);
-        return (user is not null);
-    }
-
     public async Task<AppUser?> GetUserByEmail(string email)
     {
         return await _table.FirstOrDefaultAsync(p=>p.Email==email);
     }
 
+    public async Task<AppUser?> GetUserByRefreshToken(string refreshToken)
+    {
+        return await _table.SingleOrDefaultAsync(p=>p.RefreshToken==refreshToken);
+    }
+
     public async Task<AppUser?> GetUserByUserName(string userName)
     {
         return await _table.FirstOrDefaultAsync(p => p.UserName == userName);
-    }
-
-    public async Task<AppUser?> GetUserByUserNameAndPassword(string userName, string password)
-    {
-        return await _table.FirstOrDefaultAsync(p => p.UserName == userName && p.Password == password);
     }
 }
 
